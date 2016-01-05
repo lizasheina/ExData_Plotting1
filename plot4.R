@@ -26,7 +26,7 @@ data_sub <- subset( data,
 # Create new column containig date + time
 data_sub$Datetime <- ymd( data_sub$Date ) + hms( data_sub$Time )
 
-####################### Make plot #######################
+####################### Make plots #######################
 # Set device parameters
 png( filename = "plot4.png", width = 480, height = 480, bg = "transparent" )
 
